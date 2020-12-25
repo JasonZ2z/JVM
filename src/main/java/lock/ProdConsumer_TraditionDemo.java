@@ -5,6 +5,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * Lock and Condition 生产者消费者Demo
+ *
  * @author xzheng
  * @create 2020/12/24
  */

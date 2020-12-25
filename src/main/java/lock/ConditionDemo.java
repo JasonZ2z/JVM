@@ -7,6 +7,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 3个线程轮流打印5次 Condition 使用
+ *
  * @author xzheng
  * @create 2020/12/24
  */
