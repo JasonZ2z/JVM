@@ -10,9 +10,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class FixedThreadPoolDemo {
     public static void main(String[] args) {
-//        ExecutorService threadPool = Executors.newFixedThreadPool(5);
+        ExecutorService threadPool = Executors.newFixedThreadPool(5);
 //        ExecutorService threadPool = Executors.newSingleThreadExecutor();
-        ExecutorService threadPool = Executors.newCachedThreadPool();
+//        ExecutorService threadPool = Executors.newCachedThreadPool();
 //        ScheduledExecutorService threadPool = Executors.newScheduledThreadPool(5);
 //        ExecutorService threadPool = Executors.newWorkStealingPool();
 
